@@ -13,7 +13,8 @@
   "service_port": 3000,
   "service_cmd": [],
   "image_targets": [
-    "paperclip"
+    "paperclip",
+    "bootstrap-ui"
   ],
   "dependencies": []
 }
