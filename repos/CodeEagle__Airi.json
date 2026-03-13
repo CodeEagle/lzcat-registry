@@ -3,7 +3,7 @@
   "enabled": true,
   "upstream_repo": "moeru-ai/airi",
   "check_strategy": "github_release",
-  "build_strategy": "target_repo_dockerfile",
+  "build_strategy": "upstream_with_target_template",
   "publish_to_store": false,
   "official_image_registry": "",
   "precompiled_binary_url": "",
@@ -12,6 +12,9 @@
   "build_context": ".",
   "service_port": 8080,
   "service_cmd": [],
+  "overlay_paths": [
+    "lazycat"
+  ],
   "image_targets": [
     "airi"
   ],
