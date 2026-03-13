@@ -3,7 +3,7 @@
   "enabled": true,
   "upstream_repo": "paperclipai/paperclip",
   "check_strategy": "github_release",
-  "build_strategy": "target_repo_dockerfile",
+  "build_strategy": "upstream_repo_dockerfile",
   "publish_to_store": false,
   "official_image_registry": "",
   "precompiled_binary_url": "",
